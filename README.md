@@ -51,3 +51,16 @@ The investigation identified several suspicious activities, including:
 - IOC Identification
 - Basic Incident Response
 - Security Documentation
+
+## Evidence
+
+### WPScan Web Attack Investigation
+
+Evidence from Splunk showing repeated requests to the WordPress login endpoint and identification of WPScan as the User-Agent.
+
+![WPScan Investigation Evidence](task6-wpscan-evidence.png)
+
+## Project Files
+
+- [Investigation Report](Investigation-Report.md)
+- [Indicators of Compromise](findings/indicators-of-compromise.md)
