@@ -90,4 +90,4 @@ The investigation identified repeated requests targeting the WordPress login end
 ## Project Files
 
 - [Investigation Report](Investigation-Report.md)
-- [Indicators of Compromise](findings/findings/indicators-of-compromise.md)
+- [Indicators of Compromise](findings/indicators-of-compromise.md)
