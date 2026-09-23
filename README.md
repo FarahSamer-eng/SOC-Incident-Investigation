@@ -64,3 +64,30 @@ Evidence from Splunk showing repeated requests to the WordPress login endpoint a
 
 - [Investigation Report](Investigation-Report.md)
 - [Indicators of Compromise](findings/findings/indicators-of-compromise.md)
+
+## Investigation Evidence
+
+### Web Attack Detection
+
+The investigation identified repeated requests targeting the WordPress login endpoint.
+
+**Source IP:** `10.10.243.134`  
+**Target:** `/wp-login.php`  
+**Tool:** `WPScan v3.8.28`
+
+![WPScan Evidence](task6-wpscan-evidence.png)
+
+## Investigation Workflow
+
+1. Collected and reviewed web access logs.
+2. Identified the most requested URI.
+3. Investigated the source IP address.
+4. Analyzed the User-Agent to identify the attack tool.
+5. Classified the suspicious activity.
+6. Documented indicators of compromise.
+7. Recommended mitigation measures.
+
+## Project Files
+
+- [Investigation Report](Investigation-Report.md)
+- [Indicators of Compromise](findings/findings/indicators-of-compromise.md)
