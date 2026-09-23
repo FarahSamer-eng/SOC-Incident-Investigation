@@ -87,3 +87,8 @@ The investigation identified repeated requests targeting the WordPress login end
 
 - [Investigation Report](Investigation-Report.md)
 - [Indicators of Compromise](findings/indicators-of-compromise.md)
+
+## Connect with Me
+
+- LinkedIn: [Farah Samer](https://www.linkedin.com/in/farah-samer-b35201386)
+- GitHub: [FarahSamer-eng](https://github.com/FarahSamer-eng)
