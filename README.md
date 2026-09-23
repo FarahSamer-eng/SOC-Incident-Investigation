@@ -63,4 +63,4 @@ Evidence from Splunk showing repeated requests to the WordPress login endpoint a
 ## Project Files
 
 - [Investigation Report](Investigation-Report.md)
-- [Indicators of Compromise](findings/indicators-of-compromise.md)
+- [Indicators of Compromise](findings/findings/indicators-of-compromise.md)
