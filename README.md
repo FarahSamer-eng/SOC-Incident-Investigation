@@ -60,10 +60,6 @@ Evidence from Splunk showing repeated requests to the WordPress login endpoint a
 
 ![WPScan Investigation Evidence](task6-wpscan-evidence.png)
 
-## Project Files
-
-- [Investigation Report](Investigation-Report.md)
-- [Indicators of Compromise](findings/findings/indicators-of-compromise.md)
 
 ## Investigation Evidence
 
