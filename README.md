@@ -70,7 +70,7 @@ The investigation uncovered an automated reconnaissance and credential brute-for
 └───────────┬────────────┘
             ▼
 ┌────────────────────────┐
-│ Response & Hardening    │
+│ Response & Hardening   │
 │ IOCs & security        │
 │ recommendations        │
 └────────────────────────┘
@@ -157,7 +157,7 @@ index=* sourcetype=access_combined uri_path="/wp-login.php" http_method=POST
 | where count > 50
 ```
 
-This can be further tuned according to the normal traffic baseline of the environment.
+This threshold can be further tuned according to the normal traffic baseline of the environment.
 
 ---
 
@@ -165,9 +165,9 @@ This can be further tuned according to the normal traffic baseline of the enviro
 
 ### WPScan Web Attack Detection in Splunk
 
-*Figure 1: Splunk search results displaying repeated HTTP POST requests from `10.10.243.134` to `/wp-login.php` using the WPScan User-Agent.*
+![Splunk WPScan Web Attack Detection](task6-wpscan-evidence.png)
 
-<!-- Add your actual Splunk screenshot here -->
+*Figure 1: Splunk search results displaying repeated HTTP POST requests from `10.10.243.134` to `/wp-login.php` using the WPScan User-Agent.*
 
 ---
 
